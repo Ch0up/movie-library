@@ -48,6 +48,7 @@ import { useCategoryMoviesStore } from "../stores/categoryMoviesStore";
 import BaseMovieCard from "../components/BaseMovieCard.vue";
 import BaseTab from "../components/BaseTab.vue";
 import BaseTabs from "../components/BaseTabs.vue";
+
 const { categoryMovies, isLoading, error } = storeToRefs(
   useCategoryMoviesStore()
 );

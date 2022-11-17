@@ -1,8 +1,8 @@
 <template>
   <v-navigation-drawer theme="dark" v-model="drawer" location="left" temporary>
     <div class="py-10 d-flex justify-center">
-      <router-link class="text-white  font-weight-bold text-h5" :to="{ name: 'TrendingMovies' }" aria-current="page">
-        Movie Library
+      <router-link class="text-red  font-weight-bold text-h5" :to="{ name: 'TrendingMovies' }" aria-current="page">
+        VueFlix
       </router-link>
     </div>
     <v-list v-if="linksItems" v-for="link in linksItems" :key="link" class="mr-5 pa-5">
@@ -23,8 +23,8 @@
 
     <v-app-bar-title>
       <div>
-        <router-link class="text-white font-weight-bold text-h5" :to="{ name: 'TrendingMovies' }" aria-current="page">
-          Movie Library
+        <router-link class="text-red font-weight-bold text-h5" :to="{ name: 'TrendingMovies' }" aria-current="page">
+          VueFlix
         </router-link>
       </div>
     </v-app-bar-title>

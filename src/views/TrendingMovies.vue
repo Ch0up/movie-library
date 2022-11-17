@@ -15,7 +15,6 @@ import { onMounted } from "vue";
 import { storeToRefs } from "pinia";
 import { useTrendingMoviesStore } from "../stores/trendingMoviesStore";
 import BaseMovieCard from "../components/BaseMovieCard.vue";
-import { useWishlistMoviesStore } from "@/stores/wishlistMoviesStore";
 
 const { trendingMovies, isLoading, error } = storeToRefs(
   useTrendingMoviesStore()
